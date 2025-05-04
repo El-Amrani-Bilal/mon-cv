@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center; /* Ceci centre tout */
+    margin: 0;
+    padding: 0;
+}
+
+/* Ajout de ces nouveaux styles pour corriger vos puces */
+ul {
+    /* Centre la liste en tant que bloc plutôt que son texte */
+    display: inline-block; /* Fait en sorte que la liste se comporte comme un élément de bloc */
+    text-align: left; /* Aligne le texte à gauche dans la liste */
+    margin: 0 auto; /* Centre le bloc de liste */
+    padding-left: 20px; /* Ajoute un peu de rembourrage pour les puces */
+}
+
+/* Pour les en-têtes de section qui doivent rester centrés */
+h2, h1 {
+    text-align: center;
+}
+
+header { 
+    background-color: #007bff; 
+    color: white; 
+    padding: 20px; 
+}
+
+img { 
+    border-radius: 30%; 
+}
+
+section { 
+    background: white; 
+    width: 60%; 
+    margin: 20px auto; 
+    padding: 15px; 
+    border-radius: 10px; 
+    box-shadow: 0px 0px 50px gray; 
+    text-align: left; 
+}
+
+a { 
+    color: #007bff; 
+    text-decoration: none; 
+} 
+a:hover { 
+    text-decoration: underline; 
+}
+
+footer { 
+    margin-top: 20px; 
+    font-size: 0.9em; 
+    color: gray; 
+}
+
+@media screen and (max-width: 768px) { 
+    section { 
+        width: 90%; 
+    } 
+}
